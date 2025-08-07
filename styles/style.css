@@ -101,7 +101,7 @@ nav ul li a{
     height: 845px;
 }
 .banner-content{
-    width: 800px;
+    max-width: 800px;
     height: 60px;
     /* left: 125px;
     right: -125px;
@@ -114,7 +114,7 @@ nav ul li a{
     line-height: 16px;
     letter-spacing: 0%;
     text-align: left;
-     margin-left: 120px; 
+    margin: 0px auto; 
     
     /* border: 10px solid rebeccapurple; */
 }
@@ -189,12 +189,14 @@ nav ul li a{
     height: 55px;
 }
 .hero-about{
-    width: 959px;
+    max-width: 959px;
     height: 467px;
     border-radius: 10px;
     border-style: dotted;
     background: rgb(255, 248, 243);
-    margin: 25px 325px 0px 325px;
+    margin: 0px auto;
+    margin-top: 110px;
+
     
 }
 .about-container{
@@ -255,13 +257,14 @@ margin: 111px 133px;
     font-size: small;
 }
 .skills{
-    width: 959px;
+    max-width: 959px;
     height: 467px;
     color: rgb(117, 117, 117);
-    margin: 25px 325px 0px 325px;
+    margin: 0px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 100px;
 
 }
 .skills-title{
@@ -297,14 +300,14 @@ margin: 111px 133px;
 .card img{
     width: 37px;
     height: 37px;
-    left: 0%;
+    /* left: 0%;
     right: 0%;
     top: 0%;
-    bottom: 0%;
+    bottom: 0%; */
     background: rgb(240, 219, 79);
     margin: 25px 164px 0px 25px
 }
-.card h5{
+.card .card-title > h5{
     width: 148px;
     height: 23px;
     color: rgb(24, 24, 24);
@@ -312,8 +315,9 @@ margin: 111px 133px;
     font-weight: 700;
     line-height: 23px;
     letter-spacing: 0%;
-    text-align: center;
+    text-align: left;
     margin: 25px 53px 0px 25px;
+    /* border: 2px solid red; */
 }
 .card p{
 width: 168px;
@@ -326,8 +330,8 @@ text-align: left;
 margin: 25px 28px 0px 25px;
 }
 .resume{
-    width: 959px;
-    margin: 0px 325px 0px 325px;
+    max-width: 959px;
+    margin: 0px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
